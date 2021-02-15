@@ -3,16 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FE0EE41B7838F28400CD9BC /* Pods_appdongnaeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3194B2555991D60F8558C01D /* Pods_appdongnaeTests.framework */; };
 		9CA0B2BA25D9772E001EC5B4 /* appdongnaeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA0B2B925D9772E001EC5B4 /* appdongnaeApp.swift */; };
 		9CA0B2BC25D9772E001EC5B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA0B2BB25D9772E001EC5B4 /* ContentView.swift */; };
 		9CA0B2BE25D97731001EC5B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CA0B2BD25D97731001EC5B4 /* Assets.xcassets */; };
 		9CA0B2C125D97731001EC5B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CA0B2C025D97731001EC5B4 /* Preview Assets.xcassets */; };
 		9CA0B2CC25D97731001EC5B4 /* appdongnaeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA0B2CB25D97731001EC5B4 /* appdongnaeTests.swift */; };
 		9CA0B2D725D97731001EC5B4 /* appdongnaeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA0B2D625D97731001EC5B4 /* appdongnaeUITests.swift */; };
+		9CF6551425DACFF9005850F9 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF6551325DACFF9005850F9 /* MapViewController.swift */; };
+		9CF6554425DAE85C005850F9 /* ScrollManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF6554325DAE85C005850F9 /* ScrollManagerView.swift */; };
+		9CF6554925DAEA09005850F9 /* SnapCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF6554825DAEA09005850F9 /* SnapCarousel.swift */; };
+		B5F4CD46516066BDFB233B05 /* Pods_appdongnae_appdongnaeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F79A7491B9614D70CEEE9E90 /* Pods_appdongnae_appdongnaeUITests.framework */; };
+		C208FF93BBB5AE32188D3309 /* Pods_appdongnae.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A69B1075FCC892A9BDE4FE4E /* Pods_appdongnae.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		140831FDA37F4242978B0AB1 /* Pods-appdongnaeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appdongnaeTests.release.xcconfig"; path = "Target Support Files/Pods-appdongnaeTests/Pods-appdongnaeTests.release.xcconfig"; sourceTree = "<group>"; };
+		3194B2555991D60F8558C01D /* Pods_appdongnaeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_appdongnaeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CBF91DDF69B778C7B68AD33 /* Pods-appdongnae.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appdongnae.release.xcconfig"; path = "Target Support Files/Pods-appdongnae/Pods-appdongnae.release.xcconfig"; sourceTree = "<group>"; };
+		71E3C9DE6E21B0FC7C07EC45 /* Pods-appdongnaeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appdongnaeTests.debug.xcconfig"; path = "Target Support Files/Pods-appdongnaeTests/Pods-appdongnaeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		730A93573A81BEE3F4334DE7 /* Pods-appdongnae.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appdongnae.debug.xcconfig"; path = "Target Support Files/Pods-appdongnae/Pods-appdongnae.debug.xcconfig"; sourceTree = "<group>"; };
+		7C220EE0D880C3A6D513255F /* Pods-appdongnae-appdongnaeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appdongnae-appdongnaeUITests.release.xcconfig"; path = "Target Support Files/Pods-appdongnae-appdongnaeUITests/Pods-appdongnae-appdongnaeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9CA0B2B625D9772E001EC5B4 /* appdongnae.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appdongnae.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CA0B2B925D9772E001EC5B4 /* appdongnaeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appdongnaeApp.swift; sourceTree = "<group>"; };
 		9CA0B2BB25D9772E001EC5B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +57,12 @@
 		9CA0B2D225D97731001EC5B4 /* appdongnaeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appdongnaeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CA0B2D625D97731001EC5B4 /* appdongnaeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appdongnaeUITests.swift; sourceTree = "<group>"; };
 		9CA0B2D825D97731001EC5B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CF6551325DACFF9005850F9 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		9CF6554325DAE85C005850F9 /* ScrollManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollManagerView.swift; sourceTree = "<group>"; };
+		9CF6554825DAEA09005850F9 /* SnapCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapCarousel.swift; sourceTree = "<group>"; };
+		A69B1075FCC892A9BDE4FE4E /* Pods_appdongnae.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_appdongnae.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE8B2EEEA32CE335C51FB1D1 /* Pods-appdongnae-appdongnaeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appdongnae-appdongnaeUITests.debug.xcconfig"; path = "Target Support Files/Pods-appdongnae-appdongnaeUITests/Pods-appdongnae-appdongnaeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F79A7491B9614D70CEEE9E90 /* Pods_appdongnae_appdongnaeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_appdongnae_appdongnaeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C208FF93BBB5AE32188D3309 /* Pods_appdongnae.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FE0EE41B7838F28400CD9BC /* Pods_appdongnaeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5F4CD46516066BDFB233B05 /* Pods_appdongnae_appdongnaeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		80D79BE86DE40473D55AA319 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				730A93573A81BEE3F4334DE7 /* Pods-appdongnae.debug.xcconfig */,
+				3CBF91DDF69B778C7B68AD33 /* Pods-appdongnae.release.xcconfig */,
+				AE8B2EEEA32CE335C51FB1D1 /* Pods-appdongnae-appdongnaeUITests.debug.xcconfig */,
+				7C220EE0D880C3A6D513255F /* Pods-appdongnae-appdongnaeUITests.release.xcconfig */,
+				71E3C9DE6E21B0FC7C07EC45 /* Pods-appdongnaeTests.debug.xcconfig */,
+				140831FDA37F4242978B0AB1 /* Pods-appdongnaeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8E06DB3DD5255EBB82F0BC0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A69B1075FCC892A9BDE4FE4E /* Pods_appdongnae.framework */,
+				F79A7491B9614D70CEEE9E90 /* Pods_appdongnae_appdongnaeUITests.framework */,
+				3194B2555991D60F8558C01D /* Pods_appdongnaeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9CA0B2AD25D9772E001EC5B4 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +123,8 @@
 				9CA0B2CA25D97731001EC5B4 /* appdongnaeTests */,
 				9CA0B2D525D97731001EC5B4 /* appdongnaeUITests */,
 				9CA0B2B725D9772E001EC5B4 /* Products */,
+				80D79BE86DE40473D55AA319 /* Pods */,
+				8E06DB3DD5255EBB82F0BC0A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +146,9 @@
 				9CA0B2BD25D97731001EC5B4 /* Assets.xcassets */,
 				9CA0B2C225D97731001EC5B4 /* Info.plist */,
 				9CA0B2BF25D97731001EC5B4 /* Preview Content */,
+				9CF6551325DACFF9005850F9 /* MapViewController.swift */,
+				9CF6554325DAE85C005850F9 /* ScrollManagerView.swift */,
+				9CF6554825DAEA09005850F9 /* SnapCarousel.swift */,
 			);
 			path = appdongnae;
 			sourceTree = "<group>";
@@ -137,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CA0B2DB25D97731001EC5B4 /* Build configuration list for PBXNativeTarget "appdongnae" */;
 			buildPhases = (
+				D762C8AD8134B72DAEB7A8E8 /* [CP] Check Pods Manifest.lock */,
 				9CA0B2B225D9772E001EC5B4 /* Sources */,
 				9CA0B2B325D9772E001EC5B4 /* Frameworks */,
 				9CA0B2B425D9772E001EC5B4 /* Resources */,
+				89DD200124BE69AC67D48B22 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CA0B2DE25D97731001EC5B4 /* Build configuration list for PBXNativeTarget "appdongnaeTests" */;
 			buildPhases = (
+				395E95BC9AB8690FE61CC1C0 /* [CP] Check Pods Manifest.lock */,
 				9CA0B2C325D97731001EC5B4 /* Sources */,
 				9CA0B2C425D97731001EC5B4 /* Frameworks */,
 				9CA0B2C525D97731001EC5B4 /* Resources */,
@@ -172,9 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CA0B2E125D97731001EC5B4 /* Build configuration list for PBXNativeTarget "appdongnaeUITests" */;
 			buildPhases = (
+				BD7ABAB05D36A98163B15B69 /* [CP] Check Pods Manifest.lock */,
 				9CA0B2CE25D97731001EC5B4 /* Sources */,
 				9CA0B2CF25D97731001EC5B4 /* Frameworks */,
 				9CA0B2D025D97731001EC5B4 /* Resources */,
+				BA88F354B932637FE980225F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,6 +308,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		395E95BC9AB8690FE61CC1C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-appdongnaeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89DD200124BE69AC67D48B22 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-appdongnae/Pods-appdongnae-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-appdongnae/Pods-appdongnae-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-appdongnae/Pods-appdongnae-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA88F354B932637FE980225F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-appdongnae-appdongnaeUITests/Pods-appdongnae-appdongnaeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-appdongnae-appdongnaeUITests/Pods-appdongnae-appdongnaeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-appdongnae-appdongnaeUITests/Pods-appdongnae-appdongnaeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD7ABAB05D36A98163B15B69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-appdongnae-appdongnaeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D762C8AD8134B72DAEB7A8E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-appdongnae-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9CA0B2B225D9772E001EC5B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +418,9 @@
 			files = (
 				9CA0B2BC25D9772E001EC5B4 /* ContentView.swift in Sources */,
 				9CA0B2BA25D9772E001EC5B4 /* appdongnaeApp.swift in Sources */,
+				9CF6551425DACFF9005850F9 /* MapViewController.swift in Sources */,
+				9CF6554425DAE85C005850F9 /* ScrollManagerView.swift in Sources */,
+				9CF6554925DAEA09005850F9 /* SnapCarousel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +574,7 @@
 		};
 		9CA0B2DC25D97731001EC5B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 730A93573A81BEE3F4334DE7 /* Pods-appdongnae.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -436,6 +597,7 @@
 		};
 		9CA0B2DD25D97731001EC5B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CBF91DDF69B778C7B68AD33 /* Pods-appdongnae.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -458,6 +620,7 @@
 		};
 		9CA0B2DF25D97731001EC5B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71E3C9DE6E21B0FC7C07EC45 /* Pods-appdongnaeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +643,7 @@
 		};
 		9CA0B2E025D97731001EC5B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 140831FDA37F4242978B0AB1 /* Pods-appdongnaeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +666,7 @@
 		};
 		9CA0B2E225D97731001EC5B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE8B2EEEA32CE335C51FB1D1 /* Pods-appdongnae-appdongnaeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +687,7 @@
 		};
 		9CA0B2E325D97731001EC5B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C220EE0D880C3A6D513255F /* Pods-appdongnae-appdongnaeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
